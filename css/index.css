@@ -1,0 +1,32 @@
+.a{
+    color: rgba(246, 80, 199, 0.884);
+}
+
+.header-content{
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top left, rgb(99, 79, 201), rgb(223, 54, 147));
+}
+
+.index-info{
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: calc(10px + 1vw);
+    color: white;
+}
+
+.index-info ul li::before {
+    content: "\2022";
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+

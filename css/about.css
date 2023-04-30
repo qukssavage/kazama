@@ -1,0 +1,30 @@
+.a-about{
+    color: rgba(34, 195, 227, 0.884);
+}
+
+.header-content-about{
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top left, rgb(45, 103, 219), rgb(64, 198, 155));
+}
+
+.about-info{
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: calc(6px + 2vw);
+
+}
+
+.about-list{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: calc(5px + 1vw);
+}

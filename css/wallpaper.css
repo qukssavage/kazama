@@ -1,0 +1,69 @@
+.a-wallpaper{
+    color: rgba(38, 245, 135, 0.884);
+}
+
+.header-content-wallpaper{
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top left, rgb(246, 220, 56), rgb(40, 201, 172));
+}
+
+.wallpaper-info{
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: calc(8px + 2vw);
+    color: white;
+}
+
+.image-res{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.carousel{
+    display: flex;
+    padding-bottom: 5%;
+}
+
+.carousel-container{
+    width: 50%;
+    margin: auto;
+    border: 5px solid black;
+    overflow: hidden;
+}
+
+.carousel-container img{
+    display: block;
+    width: 100%;
+
+}
+
+.carousel-slide {
+    display: flex;
+    height: 400px;
+}
+
+.btn{
+    margin-top: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 10px 25px;
+    border-radius: 50%;
+    background-image: linear-gradient(to top left, rgb(246, 220, 56), rgb(40, 201, 172));
+    font-size: 30px;
+    cursor: pointer;
+    outline: 0;
+    border: 1px solid #555;
+    height: 75px;
+}
+
+.transformAnimation {
+    transition: .4s all ease-in-out;
+}
